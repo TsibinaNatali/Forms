@@ -2,3 +2,42 @@
   margin: 0;
   padding: 0;
 }
+.user-data {
+  margin: auto;
+  border: solid 1px black;
+  padding: 5px;
+  font-size: 2rem;
+  width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#name {
+  border-radius: 3px;
+}
+user-data > h3 {
+  text-align: center;
+}
+.line {
+  display: flex;
+  margin-top: 10px;
+}
+.line > label {
+  flex-grow: 1;
+}
+.input-type1 {
+  width: 600px;
+}
+input,
+select {
+  border: none;
+  border-bottom: 2px solid black;
+  flex-grow: 1;
+  margin: 10px;
+}
+button {
+  border-radius: 5px;
+  background: #3a0cb8;
+  font-size: 20px;
+  color: #ffff;
+  padding: 8px 16px;
+  margin-left: 10px;
+}
